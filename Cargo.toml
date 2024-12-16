@@ -2,6 +2,14 @@
 name = "colorlight"
 version = "0.1.0"
 edition = "2021"
+authors = ["asamonik"]
+description = "A Rust library for detecting and sending frames to Colorlight 5A-75 LED receiver cards via Ethernet."
+license = "MIT"
+repository = "https://github.com/asamonik/colorlight.rs"
+homepage = "https://github.com/asamonik/colorlight.rs"
+documentation = "https://docs.rs/colorlight"
+keywords = ["colorlight", "LED", "Ethernet", "Rust"]
+categories = ["network-programming"]
 
 [dependencies]
 pnet = "0.35.0"
