@@ -1,4 +1,4 @@
-# colorlight_rs
+# colorlight.rs
 
 **A Rust library for detecting and sending frames to Colorlight 5A-75 LED receiver cards via Ethernet.**
 
@@ -20,7 +20,7 @@ Add to `Cargo.toml`:
 
 ```toml
 [dependencies]
-colorlight_rs = { git = "https://github.com/your-repo/colorlight_rs.git", branch = "main" }
+colorlight_rs = { git = "https://github.com/asamonik/colorlight.rs.git", branch = "main" }
 ```
 
 ## Example Usage
