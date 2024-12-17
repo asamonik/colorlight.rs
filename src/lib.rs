@@ -9,6 +9,8 @@
 //! - Send display frames (brightness, color temperature).
 //! - Send row-based pixel data frames (BGR pixel data).
 
+mod tests;
+
 use pnet::datalink::{self, Config};
 use pnet::datalink::Channel::Ethernet;
 use pnet::packet::ethernet::EthernetPacket;
